@@ -1,6 +1,6 @@
 **Проект прокси, исспользующего postgres wire protocol для связки клиент - база Postgress**
 
-**Результат тестов ggbench:**
+**Результат тестов pgbench:**
 
 ```
 transaction type: /tmp/pgbench_test.sql
