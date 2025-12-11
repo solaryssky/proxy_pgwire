@@ -1,7 +1,8 @@
-**Проект прокси, исспользующего postgres wire protocol для связки клиент - база Postgress**
+**Проект прокси, исспользующего postgres wire protocol для связки клиент - база Postgres**
 
 
 Запуск: ```source ./env.sh && cargo run``` 
+
 Пример выборки: ```psql -h 127.0.0.1 -p 55432 -U postgres -d postgres_key -c "select * from test where id = 100;"```
 
 
